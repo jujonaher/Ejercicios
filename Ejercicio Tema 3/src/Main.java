@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        suma(10, 14, 56);
+    }
+    public static int suma(int a, int b, int c) {
+        int resultado;
+        int resultado2;
+        resultado = a + b + c;
+        System.out.print(resultado);
+        return resultado;
     }
 }
