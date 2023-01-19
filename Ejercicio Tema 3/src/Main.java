@@ -1,7 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        suma(10, 14, 56);
+        //suma(10, 10, 10);
+        coche miCoche = new coche();
+        miCoche.PonerPuerta();
+        miCoche.PonerPuerta();
+        miCoche.PonerPuerta();
+        miCoche.QuitarPuerta();
+        System.out.print(miCoche.numeroPuertas);
     }
+
     public static int suma(int a, int b, int c) {
         int resultado;
         resultado = a + b + c;
@@ -9,3 +16,4 @@ public class Main {
         return resultado;
     }
 }
+
