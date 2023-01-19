@@ -6,7 +6,7 @@ public class Main {
         miCoche.PonerPuerta();
         miCoche.PonerPuerta();
         miCoche.QuitarPuerta();
-        System.out.print("Número de puertas del coche:" + miCoche.numeroPuertas);
+        System.out.print("Número de puertas de mi coche:" + miCoche.numeroPuertas);
     }
 
     public static int suma(int a, int b, int c) {
